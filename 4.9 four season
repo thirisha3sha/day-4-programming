@@ -1,0 +1,12 @@
+x=input("enter the month=")
+y=int(input("enter the date="))
+if((x=="march" and y>=20) or x=="april" or x=="may" or (x=="june" and y<=20)):
+    print("the season is currently summer")
+elif(x=="june" and y>=21) or x=="july" or x=="august" or (x=="september" and y<=21):
+    print("the season is currently spring")
+elif(x=="september" and y>=22)or x=="october" or x=="november" or (x=="december" and y<=22):
+    print("the season is currently fall")
+else:
+    print("the season is currently winter")
+          
+      
