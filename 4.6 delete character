@@ -1,0 +1,10 @@
+x=input("enter a string=")
+y=input("enter a letter=")
+z=""
+for i in x:
+    if i==y:
+        z=z+""
+    else:
+        z=z+i
+print(z)
+        
