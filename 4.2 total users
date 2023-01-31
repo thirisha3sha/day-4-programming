@@ -1,0 +1,6 @@
+a=int(input("enter the total users="))
+b=int(input("enter the staff users="))
+c=b//3
+d=b+c
+e=a-d
+print(e)
