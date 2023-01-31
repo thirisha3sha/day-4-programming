@@ -1,0 +1,9 @@
+x=list(map(int,input().split()))
+z=[]
+for i in range(len(x)):
+    y=[]
+    for j in range(len(x)):
+        if x[j]<x[i]:
+            y.append(x[j])
+    z.append(len(y))
+print(z)    
